@@ -1,0 +1,133 @@
+body {
+    background-color: #A2D4B6;
+    text-align: center;
+    margin: 50px auto;
+    width: 40%;
+    font: 14px normal 'Varela Round', Helvetica, serif;
+}
+
+h1 {
+    font-size: 2em;
+    color: #F0F3C2;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+
+
+}
+
+h2 {
+    color: #2A4851;
+}
+
+h3 {
+    text-align: center;
+    color: #75B1A1;
+    font-family: 'Quattrocento', serif;
+    text-transform: uppercase;
+    font-size: 22px;
+
+
+}
+
+h4 {
+    text-align:center;
+    margin: 2px;
+    font-family: 'Quattrocento', serif;
+    color: #75B1A1;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+h5 {
+    margin: 5px;
+    font-family: 'Quattrocento', serif;
+    color: #75B1A1;
+    margin-bottom: 15px;
+    
+}
+
+h6 {
+    margin:0;
+    font-family:'Quattrocento', serif;
+    color: #75B1A1;
+    margin-bottom: 10px;
+}
+
+.playlistURL {
+    font-family: 'Quattrocento', serif;
+    color: #75B1A1;
+    border: solid;
+    border-color: #A2D4B6;
+    text-decoration: none;
+    padding: 2px;
+    margin: 5px;
+}
+
+.playlistURL:hover {
+    color: #F0F3C2;
+    text-decoration: none;
+    background-color: #A2D4B6;
+}
+
+#myJukebox {
+    border: 2px solid #F0F3C2;
+    float: left;
+    background-color: #2A4851;
+    padding: 5px;
+    height: 800px;
+    width: 510px;
+    margin-bottom: 20px;
+}
+
+#playlist {
+    font-family: 'Bowlby One SC', cursive;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+li {
+    list-style-type: none;
+    background-color: #75B1A1;
+    color: #F0F3C2;
+    text-align: left;
+    border-style: solid;
+    padding: 10px 10px;
+    width: 400px;
+    font-family: 'Bowlby One SC', cursive;
+    overflow: auto;
+
+}
+
+li:hover {
+    background-color: #3F625D;
+}
+
+ol {
+    text-align: center;
+    position: absolute;
+    height: 200px;
+    overflow: auto;
+    margin-top: 0;
+
+
+    
+}
+
+.fa {
+    padding:10px 25px;
+    font-size: 1.5em;
+    color: #3F625D;
+    border-radius: 5px;
+    background-color: #F0F3C2;
+    
+}
+
+.fa:hover {
+    color: #F0F3C2;
+    background-color: #3F625D;
+}
+
